@@ -16,7 +16,7 @@
 </head>
 <body>
 
-<div id="myPDF" style="height: 95%; width: 95%; margin: auto;"></div>
+<div id="myPDF" style="height: 100%; width: 100%; margin: auto;"></div>
 
 
 <script type="text/javascript" src="../pdf.compatibility.js"></script>
@@ -32,11 +32,9 @@
 	$(function() {
 		$("#myPDF").pdf( {
 			source: "demo.pdf",
-			tabs: [
-				{title: "Section 1", page: 2, color: "orange"},
-				{title: "Section 2", page: 3, color: "green"},
-				{title: "Section 3", page: 5, color: "blue"},
-			]
+            showToolbar: false,
+            pdfScale: 2,
+            quality: 2 
 		} );
 	});
 

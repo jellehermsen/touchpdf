@@ -43,7 +43,7 @@
 		
 		PLUGIN_NS = 'TouchPDF',
 		
-		TOOLBAR_HEIGHT = 30,
+		TOOLBAR_HEIGHT = 0,
 		BORDER_WIDTH = 1,
 		TAB_SPACING = -2,
 		TAB_WIDTH = 41,

@@ -39,10 +39,10 @@
 }
 
 .touchPDF > .pdf-outerdiv > .pdf-toolbar {
-    height: 0;
     color: white;
     padding: 5px 0;
     text-align: right;
+    display: none;
 }
 .touchPDF > .pdf-outerdiv > .pdf-toolbar > .pdf-title {
     cursor: pointer;
